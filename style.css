@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+body::before{
+    background: url('https://source.unsplash.com/collection/190727/1600x900')
+    no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 100vh; */
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+.li1 {
+    list-style: none;
+    font-family: 'Baloo Bhai 2';
+    font-size: 1.5rem;
+    margin: 44px 34px;
+}
+
+#UL1 {
+    display: flex;
+}
+
+#Section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+    margin: 10px;
+    padding: 42px;
+
+}
+
+/* #Section1::before {
+    content: "Hi Bro";
+} */
+
+/* #Section1::after{
+    content: "Hi Bro";
+} */
+
+h2 {
+    margin: 20px;
+    font-size: 3.2rem;
+}
+
+#p1 {
+    text-align: center;
+    font-family: 'Oxygen Mono', monospace;
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+}
+a:hover{
+    color: lightgrey;
+}
+
+@media (min-width: 685px) and (max-width: 860px){
+    a{
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 29px;
+        color: white;
+    }
+    
+    .li1 {
+        list-style: none;
+        margin: 44px 20px;
+    }
+
+    h2 {
+        margin: 20px;
+        font-size: 42px;
+    }
+
+    #p1 {
+        text-align: center;
+        font-family: 'Oxygen Mono', monospace;
+        font-size: 18px;
+    }
+}
+@media (min-width: 411px) and (max-width: 685px){
+    a{
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 23px;
+        color: white;
+    }
+    
+    .li1 {
+        list-style: none;
+        margin: 44px 15px;
+    }
+
+    h2 {
+        margin: 20px;
+        font-size: 42px;
+    }
+
+    #p1 {
+        text-align: center;
+        font-family: 'Oxygen Mono', monospace;
+        font-size: 18px;
+    }
+}
+@media (min-width: 185px) and (max-width: 411px){
+    a{
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .li1 {
+        list-style: none;
+        margin: 44px 10px;
+    }
+
+    h2 {
+        margin: 20px;
+        font-size: 42px;
+    }
+
+    #p1 {
+        text-align: center;
+        font-family: 'Oxygen Mono', monospace;
+        font-size: 18px;
+    }
+}
+
+
